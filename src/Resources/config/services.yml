@@ -1,0 +1,12 @@
+services:
+
+    # Contao frontend module GreenPixelbox\ContaoBookingLordBundle\Controller\FrontendModule\BookinglordModuleController
+    GreenPixelbox\ContaoBookingLordBundle\Controller\FrontendModule\BookinglordModuleController:
+        arguments:
+            - '@session'
+        tags:
+            - { name: contao.frontend_module, category: bookinglord, template: mod_bookinglord_module, type: bookinglord_module }
+            - { name: container.service_subscriber }
+        public: true
+
+

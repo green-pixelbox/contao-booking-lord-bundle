@@ -1,0 +1,53 @@
+{
+    "name": "green-pixelbox/contao-booking-lord-bundle",
+    "description": "Booking-Tool für Hotel und Zimmerbuchungen",
+    "keywords": [
+        "contao",
+        "bundle",
+        "tag 3",
+        "tag 4"
+    ],
+    "type": "contao-bundle",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Peter Friedhoff",
+            "email": "info@green-pixelbox.de",
+            "homepage": "https://www.green-pixelbox.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/green-pixelbox/contao-booking-lord-bundle/issues",
+        "source": "https://github.com/green-pixelbox/contao-booking-lord-bundle"
+    },
+    "require": {
+        "contao/core-bundle": "^4.9"
+    },
+    "require-dev": {
+        "contao/easy-coding-standard": "^3.0",
+        "contao/manager-plugin": "^2.3",
+        "contao/test-case": "^4.0",
+        "phpunit/phpunit": "^8.4",
+        "symfony/http-client": "4.4.*",
+        "symfony/phpunit-bridge": "4.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GreenPixelbox\\ContaoBookingLordBundle\\": "src/"
+        },
+        "classmap": [
+            "src/Resources/contao"
+        ],
+        "exclude-from-classmap": [
+            "src/Resources/contao/config",
+            "src/Resources/contao/dca",
+            "src/Resources/contao/languages",
+            "src/Resources/contao/templates"
+        ]
+    },
+    "extra": {
+        "contao-manager-plugin": "GreenPixelbox\\ContaoBookingLordBundle\\ContaoManager\\Plugin"
+    },
+    "version": "0.1"
+}
