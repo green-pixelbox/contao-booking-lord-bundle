@@ -1,11 +1,14 @@
 {
     "name": "green-pixelbox/contao-booking-lord-bundle",
-    "description": "Booking-Tool für Hotel und Zimmerbuchungen",
+    "description": "Booking-Tool für Hotel und Zimmerbuchungen - Dies ist eine Vorabversion. Wir weisen darauf hin, dass diese Version als nicht produktionsbereit gekennzeichnet ist.",
     "keywords": [
         "contao",
         "bundle",
         "booking",
-        "hotel"
+        "hotel",
+        "ferienwohnung",
+        "zimmer",
+        "buchen"
     ],
     "type": "contao-bundle",
     "license": "GPL-3.0-or-later",
