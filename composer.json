@@ -22,6 +22,7 @@
         "source": "https://github.com/green-pixelbox/contao-booking-lord-bundle"
     },
     "require": {
+        "php": ">=7.2.0",
         "contao/core-bundle": "^4.9"
     },
     "require-dev": {
@@ -49,11 +50,5 @@
     "extra": {
         "contao-manager-plugin": "GreenPixelbox\\ContaoBookingLordBundle\\ContaoManager\\Plugin"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/green-pixelbox/contao-booking-lord-bundle"
-        }
-    ],
     "version": "0.1.1"
 }
