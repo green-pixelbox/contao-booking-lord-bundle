@@ -3,4 +3,4 @@
 
 # Welcome to booking-lord
 This bundle is still under construction.
-"# contao-booking-lord-bundle" 
+Hier entsteht ein Booking-Tool für Hotel und Zimmerbuchungen - Wir weisen darauf hin, dass diese Version als nicht produktionsbereit gekennzeichnet ist.

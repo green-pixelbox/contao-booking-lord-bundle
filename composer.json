@@ -1,6 +1,6 @@
 {
     "name": "green-pixelbox/contao-booking-lord-bundle",
-    "description": "Booking-Tool für Hotel und Zimmerbuchungen - Dies ist eine Vorabversion. Wir weisen darauf hin, dass diese Version als nicht produktionsbereit gekennzeichnet ist.",
+    "description": "Hier entsteht ein Booking-Tool für Hotel und Zimmerbuchungen - Wir weisen darauf hin, dass diese Version als nicht produktionsbereit gekennzeichnet ist.",
     "keywords": [
         "contao",
         "bundle",
@@ -53,5 +53,5 @@
     "extra": {
         "contao-manager-plugin": "GreenPixelbox\\ContaoBookingLordBundle\\ContaoManager\\Plugin"
     },
-    "version": "0.1.1"
+    "version": "0.1.2"
 }
